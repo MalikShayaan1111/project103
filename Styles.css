@@ -1,0 +1,145 @@
+body{
+    width: 80%;
+    background-color: white;
+}
+
+header{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header{
+    align-items: center;
+    padding: 0 5px;
+    justify-content: space-between;
+    display: flex;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+}
+.header h1{
+    padding: 0 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+td{
+    border: 1px solid rgb(240, 237, 237);
+    padding: 0 5px;
+    
+}
+table{
+    justify-content: center;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.icon{
+    margin: 5px auto;
+    padding: 10px 10px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.icon div{
+    height: 80px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    /* padding: 10px; */
+    padding-top: 40px;
+}
+.icon span{
+    background-color: white;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon h2{
+    font-size: 10px;
+}
+
+/* background image */
+
+header nav{
+    position: relative;
+    /* margin-bottom: 5px; */
+}
+
+.bg_img{
+    
+    height: 40vh;
+    overflow: visible;
+    position: absolute;
+    margin: 5px auto;
+    
+    width: 60%;
+    
+    
+    
+}
+.bg_img img{
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+
+}
+main{
+    margin: 25% auto;
+    position: relative;
+}
+
+.bottom_section{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+}
+.bottom_section h3{
+    background-color: green;
+    padding: 0 25px;
+}
+.bottom_section p{
+    font-size: 10px;
+}
+.bottom_section .bottom_section1{
+    width: 22%;
+    padding: 0 10px;
+}
+.bottom_section .bottom_section2{
+    width: 45%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_section2 div{
+    /* display: flex; */
+    flex-direction: column;
+    display: block;
+    padding: 5px
+    
+}
+
+.bottom_section2 img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    align-items: center;
+    align-content: center;
+    padding: 5px ;
+}
+
+.bottom_section .bottom_section3{
+    width: 22%;
+    padding: 0 10px;
+}
+.bottom_section3 h2{
+    background-color: green;
+}
+.bottom_section3 li{
+    font-size: 10px;
+}
